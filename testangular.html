@@ -1,0 +1,22 @@
+<html>
+   
+   <head>
+      <title>AngularJS First Application</title>
+   </head>
+   
+   <body>
+      <h1>Sample Application</h1>
+      
+      <div ng-app = "" ng-init="fn=1;ln=1">
+         <p>Enter your First Number: <input type = "number" ng-model = "fn"></p>
+         <p>Enter your Last Number: <input type = "number" ng-model = "ln"></p>
+         <p>Sum of Numbers : {{ fn + ln }}</p>
+         <p>Difference of Numbers : {{ fn - ln }}</p>
+         <p>Division of Numbers : {{ fn / ln }}</p>
+         <p>Multiplication of Numbers : {{ fn * ln }}</p>
+      </div>
+      
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+      
+   </body>
+</html>
